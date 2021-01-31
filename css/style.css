@@ -307,7 +307,7 @@ home section
   border-color: transparent;
 }
 #home .btn-danger {
-  background: #00c6d7;
+  background:#029cdc;
   border-color: transparent;
 }
 #home .btn-danger:hover {
@@ -708,5 +708,14 @@ media quires for mobile
   }
   #home h3 {
     font-size: 12px;
+  }
+  .logo-navbar {
+    width: 144px;
+    position: relative;
+    bottom: 16px;
+    left: -25px;
+  }
+  .custom-navbar{
+    background-color: #029cdc;
   }
 }
