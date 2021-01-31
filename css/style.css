@@ -207,6 +207,12 @@ navigation section
     background: #4B4B4B;
     margin-bottom: 0;
 }
+.logo-navbar{
+  width: 235px;
+  position: relative;
+  bottom: 38px;
+  left: -52px;
+}
 .custom-navbar .navbar-brand  {
   color: #00c6d7;
   font-weight: 600;
@@ -251,8 +257,9 @@ navigation section
             background: 0 0;
          }
     .custom-navbar.top-nav-collapse {
-            padding: 8px;
-            background: #4B4B4B;
+          transition: all 0.9s ease;
+          padding: 8px;
+          background: #029cdc;
         }
 }
 

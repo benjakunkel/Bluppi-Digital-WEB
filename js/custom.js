@@ -61,7 +61,7 @@ $(window).load(function(){
 
 // jQuery to collapse the navbar on scroll //
 $(window).scroll(function() {
-    if ($(".navbar").offset().top > 50) {
+    if ($(".navbar").offset().top > 900) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
@@ -97,7 +97,7 @@ $(function(){
   $(function(){
     jQuery(document).ready(function() {
     $('#home').backstretch([
-       "images/home-bg-slideshow1.jpg", 
+       "images/bluppipc.png", 
        "images/home-bg-slideshow2.jpg",
         ],  {duration: 2000, fade: 750});
     });
