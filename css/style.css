@@ -715,7 +715,15 @@ media quires for mobile
     bottom: 16px;
     left: -25px;
   }
-  .custom-navbar{
-    background-color: #029cdc;
+  .custom-navbar {
+    background: #4B4B4B;
+    padding: 10px;
+    border-bottom: 0;
+    background: 0 0;
+  }
+  .custom-navbar.top-nav-collapse {
+  transition: all 0.9s ease;
+  padding: 8px;
+  background: #029cdc;
   }
 }
