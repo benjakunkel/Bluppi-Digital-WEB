@@ -214,7 +214,7 @@ navigation section
   left: -52px;
 }
 .custom-navbar .navbar-brand  {
-  color: #00c6d7;
+  color: white;
   font-weight: 600;
   font-size: 24px;
 }
@@ -341,8 +341,14 @@ work section
 about section
 ========================================================================== */
 #about {
-  background: #3B3B3B;
+  background: #029cdc;
   color: #ffffff;
+}
+#about .section-title strong {
+  color: white;
+}
+#about h1{
+  color: black;
 }
 .nav-tabs {
   margin-top: 20px;
@@ -544,8 +550,8 @@ pricing section
 }
 #pricing .plan {
   box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.20);
-  padding-top: 40px;
-  padding-bottom: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin-bottom: 32px;
 }
 #pricing .plan span {
@@ -554,7 +560,6 @@ pricing section
 #pricing .plan .plan_title {
   font-weight: 300;
   letter-spacing: 2px;
-  padding: 30px;
   margin-bottom: 20px;
 }
 #pricing .medium-icon {
@@ -590,10 +595,10 @@ pricing section
   background-color: #00c6d7;
 }
 #pricing .plan-two .btn {
-  background-color: #ffa400;
+  background-color: #00c6d7;
 }
 #pricing .plan-three .btn {
-  background-color: #009988;
+  background-color:  #00c6d7;
 }
 #pricing .plan .btn:hover {
   background-color: #3B3B3B;
@@ -638,7 +643,7 @@ contact section
 #contact input {
   height: 40px;
 }
-#contact input[type="submit"] {
+#contact button[type="submit"] {
   background: #00c6d7;
   border: 3px solid #00c6d7;
   letter-spacing: 1px;
@@ -725,5 +730,23 @@ media quires for mobile
   transition: all 0.9s ease;
   padding: 8px;
   background: #029cdc;
+  }
+}
+.services-p{
+  font-size: 14px;
+}
+.tiendanube-esp{
+  width: 200px;
+  position: relative;
+  top: 10px;
+}
+@media (max-width: 991px) {
+  .tiendanube-esp{
+    width: 161px;
+    position: relative;
+    top: 40px;
+  }
+  #pricing h2{
+    font-size: 24px;
   }
 }
