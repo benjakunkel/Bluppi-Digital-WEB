@@ -353,6 +353,9 @@ about section
 #about h1{
   color: black;
 }
+.about-title-d{
+  color:  #353c5d;
+}
 .nav-tabs {
   margin-top: 20px;
   border-bottom: 1px solid #606060;
@@ -386,11 +389,11 @@ about section
 }
 
 .tab-content a {
-	color: #0CC;
+	color:  #353c5d;
 }
 
 .tab-content a:hover, .tab-content a:link {
-	color: #FF0;
+	color:  #353c5d;
 	text-decoration: none;
 }
 
@@ -751,13 +754,16 @@ media quires for mobile
 .tiendanube-esp{
   width: 200px;
   position: relative;
-  top: 10px;
+  top: 85px;
+  margin-bottom: 20px;
 }
 @media (max-width: 991px) {
   .tiendanube-esp{
     width: 161px;
     position: relative;
     top: 40px;
+    left: -15px;
+    margin-bottom: 0px;
   }
   #pricing h2{
     font-size: 24px;

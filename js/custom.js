@@ -97,7 +97,7 @@ $(function(){
   $(function(){
     jQuery(document).ready(function() {
     $('#home').backstretch([
-       "images/bluppipc.png"
+       "images/blupipic.jpg"
         ],  {duration: 2000, fade: 750});
     });
   })
