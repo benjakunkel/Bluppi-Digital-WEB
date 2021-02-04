@@ -60,7 +60,7 @@ hr {
   font-size: 32px !important;
 }
 
-#work,#about, #team, 
+#work,#about, #team,
 #portfolio, #pricing, #contact {
    padding-top: 100px;
   padding-bottom: 100px;
@@ -713,9 +713,13 @@ footer p {
     #portfolio .col-md-4 {
       width: 33.333%;
     }
-  }    
+  }
 }
-
+.logo-blanco-header{
+  width: 150px;
+  position: relative;
+  top: -42px;
+}
 /* ==========================================================================
 media quires for mobile
 ========================================================================== */
