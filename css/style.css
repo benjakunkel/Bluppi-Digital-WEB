@@ -259,7 +259,7 @@ navigation section
     .custom-navbar.top-nav-collapse {
           transition: all 0.9s ease;
           padding: 8px;
-          background: #029cdc;
+          background: black;
         }
 }
 
@@ -344,7 +344,7 @@ work section
 about section
 ========================================================================== */
 #about {
-  background: #029cdc;
+  background: gainsboro;
   color: #ffffff;
 }
 #about .section-title strong {
@@ -745,7 +745,7 @@ media quires for mobile
   .custom-navbar.top-nav-collapse {
   transition: all 0.9s ease;
   padding: 8px;
-  background: #029cdc;
+  background: black;
   }
 }
 .services-p{
