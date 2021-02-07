@@ -44,7 +44,7 @@ hr {
 }
 
 .section-title strong {
-	color: #00C6D7;
+	color:#CAAB8C;
   	font-size: 56px;
 }
 
@@ -64,6 +64,11 @@ hr {
 #portfolio, #pricing, #contact {
    padding-top: 100px;
   padding-bottom: 100px;
+}
+@media (max-width: 991px) {
+  #about{
+    padding-top: 48px!important;
+  }
 }
 
 
@@ -107,7 +112,7 @@ preloader section
   margin: 0 auto;
   width: 20%;
   height: 20%;
-  background-color: #00c6d7;
+  background-color:#CAAB8C;
   border-radius: 100%;
   -webkit-animation: sk-circleBounceDelay 1.2s infinite ease-in-out;
           animation: sk-circleBounceDelay 1.2s infinite ease-in-out;
@@ -219,7 +224,7 @@ navigation section
   font-size: 24px;
 }
 .custom-navbar .navbar-brand .navbar-toggle {
-    background: #00c6d7;
+    background:#CAAB8C;
     padding: 4px 6px;
     font-size: 16px;
     color: #fff;
@@ -239,7 +244,7 @@ navigation section
   outline: none;
 }
 .custom-navbar .nav li.active > a {
-      color: #00c6d7;
+      color:#CAAB8C;
     }
 .custom-navbar .navbar-toggle {
         border: none;
@@ -284,13 +289,16 @@ home section
   font-size: 80px;
 }
 #home span{
-  color: #00c6d7;
+  color:#CAAB8C;
 }
 #home h3 {
   font-size: 14px;
 }
 #home hr {
   width: 240px;
+}
+.nosotros-img{
+  width: 27%;
 }
 #home .btn {
   background: transparent;
@@ -306,11 +314,11 @@ home section
   transition: all 0.4s ease-in-out;
 }
 #home .btn:hover {
-  background: #00c6d7;
+  background:#CAAB8C;
   border-color: transparent;
 }
 #home .btn-danger {
-  background:#029cdc;
+  background: #CAAB8C;
   border-color: transparent;
 }
 #home .btn-danger:hover {
@@ -344,17 +352,18 @@ work section
 about section
 ========================================================================== */
 #about {
-  background: gainsboro;
-  color: #ffffff;
+  color: black;
+  background-color: #f6f6f6;
 }
 #about .section-title strong {
-  color: white;
+  color: #CAAB8C;
 }
 #about h1{
   color: black;
 }
 .about-title-d{
-  color:  #353c5d;
+  color: black;
+    font-size: 30px;
 }
 .nav-tabs {
   margin-top: 20px;
@@ -363,6 +372,24 @@ about section
 .nav-tabs > li {
   float: left;
   margin-bottom: -1px;
+}
+#about p{
+  font-size: 19px;
+    line-height: 37px;
+    letter-spacing: 2px;
+    color: gray;
+    font-weight: lighter;
+}
+@media (max-width: 991px) {
+  #about p{
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: 0px;
+  color: gray;
+  font-weight: lighter;}
+  .about-title-d{
+    font-size: 24px;
+  }
 }
 .nav-tabs > li > a {
 	display: block;
@@ -378,7 +405,7 @@ about section
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  color: #00c6d7;
+  color:#CAAB8C;
   cursor: default;
   background-color: transparent;
   border: 1px solid transparent;
@@ -404,7 +431,7 @@ team section
   text-align: center;
 }
 #team h3 {
-  color: #00c6d7;
+  color:#CAAB8C;
   font-size: 14px;
   font-weight: bold;
 }
@@ -457,7 +484,7 @@ team section
 }
 
 #team .social-icon li a:hover {
-  color: #00c6d7;
+  color:#CAAB8C;
 }
 
 /* ==========================================================================
@@ -504,7 +531,7 @@ portfolio section
 .filter-wrapper li .selected,
 .filter-wrapper li a:focus,
 .filter-wrapper li a:hover {
-    color: #00c6d7;
+    color:#CAAB8C;
     outline: none;
   }
 
@@ -598,13 +625,13 @@ pricing section
   text-transform: uppercase;
 }
 #pricing .plan-one .btn {
-  background-color: #00c6d7;
+  background-color:#CAAB8C;
 }
 #pricing .plan-two .btn {
-  background-color: #00c6d7;
+  background-color:#CAAB8C;
 }
 #pricing .plan-three .btn {
-  background-color:  #00c6d7;
+  background-color: #CAAB8C;
 }
 #pricing .plan .btn:hover {
   background-color: #3B3B3B;
@@ -660,8 +687,8 @@ contact section
   height: 40px;
 }
 #contact button[type="submit"] {
-  background: #00c6d7;
-  border: 3px solid #00c6d7;
+  background:#CAAB8C;
+  border: 3px solid#CAAB8C;
   letter-spacing: 1px;
   margin-top: 18px;
   height: 50px;
@@ -704,7 +731,7 @@ footer p {
   transition: all 0.4s ease-in-out;
 }
 .social-icon li a:hover {
-  color: #00c6d7;
+  color:#CAAB8C;
 }
 
 @media screen and (min-width: 992px) {
@@ -756,7 +783,7 @@ media quires for mobile
   font-size: 14px;
 }
 .tiendanube-esp{
-  width: 200px;
+  width: 155px;
   position: relative;
   top: 85px;
   margin-bottom: 20px;
