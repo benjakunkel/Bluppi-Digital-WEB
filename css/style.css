@@ -69,6 +69,12 @@ hr {
   #about{
     padding-top: 48px!important;
   }
+  #portfolio{
+    padding-top: 0px;
+  }
+  #pricing{
+    padding-top: 0px;
+  }
 }
 
 
@@ -612,6 +618,7 @@ pricing section
   display: block;
   font-weight: 500;
   padding: 12px 0px;
+  color: gray;
 }
 #pricing .plan .btn {
   border: none;
@@ -781,6 +788,11 @@ media quires for mobile
 }
 .services-p{
   font-size: 14px;
+  /* font-weight: 600; */
+  width: 267px;
+  margin: 0 auto;
+  display: block;
+  color: gray;
 }
 .tiendanube-esp{
   width: 155px;
@@ -798,6 +810,11 @@ media quires for mobile
   }
   #pricing h2{
     font-size: 24px;
+  }
+  .services-p{
+    font-size: 14px;
+    margin: 0 auto;
+    width: 268px;
   }
 }
 @media (max-width: 991px) {
