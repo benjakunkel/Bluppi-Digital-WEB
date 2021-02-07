@@ -576,7 +576,7 @@ pricing section
   text-align: center;
 }
 #pricing h2 {
-  font-size: 52px;
+  font-size: 32px;
 }
 #pricing h3 {
   font-size: 16px;
@@ -799,4 +799,13 @@ media quires for mobile
   #pricing h2{
     font-size: 24px;
   }
+}
+@media (max-width: 991px) {
+  .mobile-margin{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .nosotros-img {
+    width: 18%;
+}
 }
